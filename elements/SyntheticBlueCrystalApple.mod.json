@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "synthetic_blue_crystal_apple",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalgrains"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueCrystalApple"
+    },
+    "name": "synthetic_blue_crystal_apple",
+    "namespace": "mod"
+  }
+}

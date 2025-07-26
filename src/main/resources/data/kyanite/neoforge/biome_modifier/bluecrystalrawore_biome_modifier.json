@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "the_end",
+    "the_void"
+  ],
+  "features": "kyanite:bluecrystalrawore",
+  "step": "underground_ores"
+}

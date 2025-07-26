@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "syntheticbluecrystalhoe",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "kyanite:bluecrystalingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "kyanite:bluecrystalhoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "mod_elements": [
+    {
+      "name": "Kyanite",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyanite",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Coarsebluespar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coarsebluespar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kyanite/item/CoarsebluesparItem.java",
+          "src/main/resources/assets/kyanite/models/item/coarsebluespar.json",
+          "src/main/resources/assets/kyanite/items/coarsebluespar.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_crystal_raw_ore_provides_experience",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_raw_ore_provides_experience",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/kyanite/procedures/Blue_crystal_raw_ore_provides_experienceProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalrawore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalrawore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/worldgen/placed_feature/bluecrystalrawore.json",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalrawore.json",
+          "src/main/resources/assets/kyanite/items/bluecrystalrawore.json",
+          "src/main/resources/assets/kyanite/models/block/bluecrystalrawore.json",
+          "src/main/resources/data/kyanite/loot_table/blocks/bluecrystalrawore.json",
+          "src/main/resources/data/kyanite/neoforge/biome_modifier/bluecrystalrawore_biome_modifier.json",
+          "src/main/resources/assets/kyanite/blockstates/bluecrystalrawore.json",
+          "src/main/java/net/mcreator/kyanite/block/BluecrystalraworeBlock.java",
+          "src/main/resources/data/kyanite/worldgen/configured_feature/bluecrystalrawore.json"
+        ]
+      }
+    },
+    {
+      "name": "Qingqingdodoblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qingqingdodoblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/neoforge/biome_modifier/qingqingdodoblock_biome_modifier.json",
+          "src/main/resources/data/kyanite/worldgen/placed_feature/qingqingdodoblock.json",
+          "src/main/resources/assets/kyanite/models/item/qingqingdodoblock.json",
+          "src/main/resources/data/kyanite/loot_table/blocks/qingqingdodoblock.json",
+          "src/main/resources/assets/kyanite/items/qingqingdodoblock.json",
+          "src/main/resources/assets/kyanite/blockstates/qingqingdodoblock.json",
+          "src/main/resources/assets/kyanite/models/block/qingqingdodoblock.json",
+          "src/main/resources/data/kyanite/worldgen/configured_feature/qingqingdodoblock.json",
+          "src/main/java/net/mcreator/kyanite/block/QingqingdodoblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalingotfragments",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalingotfragments",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/models/item/bluecrystalingotfragments.json",
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalingotfragmentsItem.java",
+          "src/main/resources/assets/kyanite/items/bluecrystalingotfragments.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalingotItem.java",
+          "src/main/resources/assets/kyanite/items/bluecrystalingot.json",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalingotformula",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalingotformula",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/bluecrystalingotformula.json"
+        ]
+      }
+    },
+    {
+      "name": "Smeltingcoarsebluespar",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingcoarsebluespar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/advancement/recipes/smeltingcoarsebluespar.json",
+          "src/main/resources/data/kyanite/recipe/smeltingcoarsebluespar.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalpickaxeItem.java",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalpickaxe.json",
+          "src/main/resources/assets/kyanite/items/bluecrystalpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalPick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_pick.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalgrains",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalgrains",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/models/item/bluecrystalgrains.json",
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalgrainsItem.java",
+          "src/main/resources/assets/kyanite/items/bluecrystalgrains.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalParticles",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_particles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_particles.json"
+        ]
+      }
+    },
+    {
+      "name": "Method2forsynthesizingbluecrystalingots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "method_2forsynthesizingbluecrystalingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/method_2forsynthesizingbluecrystalingots.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/models/item/blue_crystal_apple.json",
+          "src/main/resources/assets/kyanite/items/blue_crystal_apple.json",
+          "src/main/java/net/mcreator/kyanite/item/BlueCrystalAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalApple",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_Crystal_Apple_provides_players_with_effects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_apple_provides_players_with_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/kyanite/procedures/Blue_Crystal_Apple_provides_players_with_effectsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Newmaterials",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newmaterials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/advancement/newmaterials.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalApple",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/advancement/magical_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/items/blue_crystal_sword.json",
+          "src/main/resources/assets/kyanite/models/item/blue_crystal_sword.json",
+          "src/main/java/net/mcreator/kyanite/item/BlueCrystalSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalaxeItem.java",
+          "src/main/resources/assets/kyanite/items/bluecrystalaxe.json",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Syntheticbluecrystalsword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syntheticbluecrystalsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/items/bluecrystalshovel.json",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalshovel.json",
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/models/item/bluecrystalhoe.json",
+          "src/main/java/net/mcreator/kyanite/item/BluecrystalhoeItem.java",
+          "src/main/resources/assets/kyanite/items/bluecrystalhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Syntheticbluecrystalhoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syntheticbluecrystalhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/syntheticbluecrystalhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/loot_table/blocks/bluecrystalblock.json",
+          "src/main/resources/assets/kyanite/blockstates/bluecrystalblock.json",
+          "src/main/resources/assets/kyanite/items/bluecrystalblock.json",
+          "src/main/java/net/mcreator/kyanite/block/BluecrystalblockBlock.java",
+          "src/main/resources/assets/kyanite/models/item/bluecrystalblock.json",
+          "src/main/resources/assets/kyanite/models/block/bluecrystalblock.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBlueCrystalBlocks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_blue_crystal_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/synthetic_blue_crystal_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "Methodthreeforsynthesizingbluecrystalingots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methodthreeforsynthesizingbluecrystalingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/recipe/methodthreeforsynthesizingbluecrystalingots.json"
+        ]
+      }
+    },
+    {
+      "name": "Grindingbluecrystalblocks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grindingbluecrystalblocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/loot_table/blocks/grindingbluecrystalblocks.json",
+          "src/main/resources/assets/kyanite/models/block/grindingbluecrystalblocks.json",
+          "src/main/resources/assets/kyanite/models/item/grindingbluecrystalblocks.json",
+          "src/main/java/net/mcreator/kyanite/block/GrindingbluecrystalblocksBlock.java",
+          "src/main/resources/assets/kyanite/items/grindingbluecrystalblocks.json",
+          "src/main/resources/assets/kyanite/blockstates/grindingbluecrystalblocks.json"
+        ]
+      }
+    },
+    {
+      "name": "GrindingBlueCrystalBlockswithGrindingWheel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinding_blue_crystal_blockswith_grinding_wheel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/kyanite/procedures/GrindingBlueCrystalBlockswithGrindingWheelProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalEarthBlocks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_earth_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/items/blue_crystal_earth_blocks.json",
+          "src/main/java/net/mcreator/kyanite/block/BlueCrystalEarthBlocksBlock.java",
+          "src/main/resources/assets/kyanite/models/block/blue_crystal_earth_blocks.json",
+          "src/main/resources/data/kyanite/loot_table/blocks/blue_crystal_earth_blocks.json",
+          "src/main/resources/assets/kyanite/models/item/blue_crystal_earth_blocks.json",
+          "src/main/resources/assets/kyanite/blockstates/blue_crystal_earth_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalGrassCube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_grass_cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/loot_table/blocks/blue_crystal_grass_cube.json",
+          "src/main/resources/assets/kyanite/models/block/blue_crystal_grass_cube.json",
+          "src/main/java/net/mcreator/kyanite/block/BlueCrystalGrassCubeBlock.java",
+          "src/main/resources/assets/kyanite/models/item/blue_crystal_grass_cube.json",
+          "src/main/resources/assets/kyanite/blockstates/blue_crystal_grass_cube.json",
+          "src/main/resources/assets/kyanite/items/blue_crystal_grass_cube.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalUnderwaterCube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_underwater_cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/loot_table/blocks/blue_crystal_underwater_cube.json",
+          "src/main/resources/assets/kyanite/models/item/blue_crystal_underwater_cube.json",
+          "src/main/resources/assets/kyanite/blockstates/blue_crystal_underwater_cube.json",
+          "src/main/resources/assets/kyanite/items/blue_crystal_underwater_cube.json",
+          "src/main/resources/assets/kyanite/models/block/blue_crystal_underwater_cube.json",
+          "src/main/java/net/mcreator/kyanite/block/BlueCrystalUnderwaterCubeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystaltreestem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystaltreestem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kyanite/block/BluecrystaltreestemBlock.java",
+          "src/main/resources/assets/kyanite/items/bluecrystaltreestem.json",
+          "src/main/resources/assets/kyanite/models/item/bluecrystaltreestem.json",
+          "src/main/resources/assets/kyanite/models/block/bluecrystaltreestem.json",
+          "src/main/resources/data/kyanite/loot_table/blocks/bluecrystaltreestem.json",
+          "src/main/resources/assets/kyanite/blockstates/bluecrystaltreestem.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystaltreeleaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecrystaltreeleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kyanite/models/item/bluecrystaltreeleaves.json",
+          "src/main/resources/data/kyanite/loot_table/blocks/bluecrystaltreeleaves.json",
+          "src/main/java/net/mcreator/kyanite/block/BluecrystaltreeleavesBlock.java",
+          "src/main/resources/assets/kyanite/items/bluecrystaltreeleaves.json",
+          "src/main/resources/assets/kyanite/models/block/bluecrystaltreeleaves.json",
+          "src/main/resources/assets/kyanite/blockstates/bluecrystaltreeleaves.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystalIsland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_island",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kyanite/worldgen/biome/blue_crystal_island.json",
+          "src/main/resources/data/kyanite/worldgen/configured_feature/blue_crystal_island_tree.json",
+          "src/main/resources/data/kyanite/worldgen/placed_feature/blue_crystal_island_tree.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Qingqingdodoblock",
+      "~CUSTOM:Bluecrystalrawore"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Bluecrystaltreestem",
+      "~CUSTOM:Bluecrystalrawore"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Qingqingdodoblock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Bluecrystalpickaxe"
+    ],
+    "ITEMS:kyanite:bluecrystalpickaxe_repair_items": [
+      "~CUSTOM:Bluecrystalingot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlueCrystalSword"
+    ],
+    "ITEMS:kyanite:blue_crystal_sword_repair_items": [
+      "~CUSTOM:Bluecrystalingot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Bluecrystalaxe"
+    ],
+    "ITEMS:kyanite:bluecrystalaxe_repair_items": [
+      "~CUSTOM:Bluecrystalingot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Bluecrystalshovel"
+    ],
+    "ITEMS:kyanite:bluecrystalshovel_repair_items": [
+      "~CUSTOM:Bluecrystalingot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Bluecrystalhoe"
+    ],
+    "ITEMS:kyanite:bluecrystalhoe_repair_items": [
+      "~CUSTOM:Bluecrystalingot"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:BlueCrystalGrassCube",
+      "~CUSTOM:BlueCrystalEarthBlocks",
+      "~CUSTOM:BlueCrystalUnderwaterCube"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Bluecrystaltreestem"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:BlueCrystalIsland"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:BlueCrystalIsland"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.kyanite.kyanite": "蓝晶石",
+      "item.kyanite.coarsebluespar": "粗蓝晶石",
+      "item.kyanite.bluecrystalrawore": "Blue_crystal_raw_ore",
+      "item.kyanite.qingqingdodoblock": "Qingqingdodoblock",
+      "item.kyanite.bluecrystalingotfragments": "Bluecrystalingotfragments",
+      "item.kyanite.bluecrystalingot": "Bluecrystalingot",
+      "item.kyanite.bluecrystalpickaxe": "Bluecrystalpickaxe",
+      "item.kyanite.bluecrystalgrains": "Bluecrystalgrains",
+      "item.kyanite.blue_crystal_apple": "Blue Crystal Apple",
+      "advancements.newmaterials.descr": "Mining blue crystals",
+      "advancements.newmaterials.title": "New_materials",
+      "advancements.magical_apple.title": "Magical Apple",
+      "advancements.magical_apple.descr": "Eat_the_Blue_Crystal_Apple",
+      "item.kyanite.blue_crystal_sword": "Blue Crystal Sword",
+      "item.kyanite.bluecrystalaxe": "Bluecrystalaxe",
+      "item.kyanite.bluecrystalshovel": "Bluecrystalshovel",
+      "item.kyanite.bluecrystalhoe": "Bluecrystalhoe",
+      "item.kyanite.bluecrystalblock": "Bluecrystalblock",
+      "item.kyanite.grindingbluecrystalblocks": "Grindingbluecrystalblocks",
+      "item.kyanite.blue_crystal_earth_blocks": "Blue Crystal Earth Blocks",
+      "item.kyanite.blue_crystal_grass_cube": "Blue Crystal Grass Cube",
+      "item.kyanite.blue_crystal_underwater_cube": "Blue Crystal Underwater Cube",
+      "item.kyanite.bluecrystaltreestem": "Bluecrystaltreestem",
+      "item.kyanite.bluecrystaltreeleaves": "Bluecrystaltreeleaves",
+      "biome.kyanite.blue_crystal_island": "Blue Crystal Island"
+    },
+    "zh_cn": {
+      "item_group.kyanite.kyanite": "蓝晶石",
+      "item.kyanite.coarsebluespar": "粗蓝晶石",
+      "item.kyanite.bluecrystalrawore": "蓝晶原矿",
+      "item.kyanite.qingqingdodoblock": "三聚郬胺",
+      "item.kyanite.bluecrystalingotfragments": "蓝晶锭碎片",
+      "item.kyanite.bluecrystalingot": "蓝晶锭",
+      "item.kyanite.bluecrystalpickaxe": "蓝晶镐",
+      "item.kyanite.bluecrystalgrains": "蓝晶粒",
+      "item.kyanite.blue_crystal_apple": "蓝晶苹果",
+      "advancements.newmaterials.descr": "开采蓝晶",
+      "advancements.newmaterials.title": "新的材料",
+      "advancements.magical_apple.title": "奇怪的苹果",
+      "advancements.magical_apple.descr": "吃下蓝晶苹果",
+      "item.kyanite.blue_crystal_sword": "蓝晶剑",
+      "item.kyanite.bluecrystalaxe": "蓝晶斧",
+      "item.kyanite.bluecrystalshovel": "蓝晶铲",
+      "item.kyanite.bluecrystalhoe": "蓝晶锄",
+      "item.kyanite.bluecrystalblock": "蓝晶块",
+      "item.kyanite.grindingbluecrystalblocks": "磨制蓝晶块",
+      "item.kyanite.blue_crystal_earth_blocks": "蓝晶土方块",
+      "item.kyanite.blue_crystal_grass_cube": "蓝晶草方块",
+      "item.kyanite.blue_crystal_underwater_cube": "水下蓝晶方块",
+      "item.kyanite.bluecrystaltreestem": "蓝晶树原木",
+      "item.kyanite.bluecrystaltreeleaves": "蓝晶树树叶",
+      "biome.kyanite.blue_crystal_island": "蓝晶岛"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/kyanite.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/kyanite/init/KyaniteModTabs.java",
+      "src/main/java/net/mcreator/kyanite/KyaniteMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/kyanite/init/KyaniteModBiomes.java",
+      "src/main/java/net/mcreator/kyanite/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/kyanite/init/KyaniteModBlocks.java",
+      "src/main/java/net/mcreator/kyanite/init/KyaniteModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kyanite",
+    "modName": "kyanite",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.5",
+    "modElementsPackage": "net.mcreator.kyanite"
+  },
+  "mcreatorVersion": 202500228610
+}

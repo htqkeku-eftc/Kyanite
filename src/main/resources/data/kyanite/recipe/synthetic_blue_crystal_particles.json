@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "synthetic_blue_crystal_particles",
+  "category": "misc",
+  "ingredients": [
+    "kyanite:bluecrystalingot"
+  ],
+  "result": {
+    "id": "kyanite:bluecrystalgrains",
+    "count": 9
+  }
+}

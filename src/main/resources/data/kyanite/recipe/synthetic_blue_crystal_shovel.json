@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "synthetic_blue_crystal_shovel",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "kyanite:bluecrystalingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "kyanite:bluecrystalshovel",
+    "count": 1
+  }
+}

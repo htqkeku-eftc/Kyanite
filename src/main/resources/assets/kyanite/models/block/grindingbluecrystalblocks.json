@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyanite:block/grinding_blue_crystal_blocks",
+    "up": "kyanite:block/grinding_blue_crystal_blocks",
+    "north": "kyanite:block/grinding_blue_crystal_blocks",
+    "east": "kyanite:block/grinding_blue_crystal_blocks",
+    "south": "kyanite:block/grinding_blue_crystal_blocks",
+    "west": "kyanite:block/grinding_blue_crystal_blocks",
+    "particle": "kyanite:block/grinding_blue_crystal_blocks"
+  },
+  "render_type": "solid"
+}

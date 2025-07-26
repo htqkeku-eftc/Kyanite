@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyanite:block/qingqingdodo",
+    "up": "kyanite:block/qingqingdodo",
+    "north": "kyanite:block/qingqingdodo",
+    "east": "kyanite:block/qingqingdodo",
+    "south": "kyanite:block/qingqingdodo",
+    "west": "kyanite:block/qingqingdodo",
+    "particle": "kyanite:block/qingqingdodo"
+  },
+  "render_type": "solid"
+}

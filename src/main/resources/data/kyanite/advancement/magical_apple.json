@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "kyanite:blue_crystal_apple"
+    },
+    "title": {
+      "translate": "advancements.magical_apple.title"
+    },
+    "description": {
+      "translate": "advancements.magical_apple.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magical_apple_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kyanite:blue_crystal_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "kyanite:newmaterials"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "smelting_coarse_blue_spar",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": "kyanite:coarsebluespar",
+  "result": {
+    "id": "kyanite:bluecrystalingotfragments"
+  }
+}

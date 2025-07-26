@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "synthetic_blue_crystal_sword",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "kyanite:bluecrystalingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "kyanite:bluecrystalaxe",
+    "count": 1
+  }
+}

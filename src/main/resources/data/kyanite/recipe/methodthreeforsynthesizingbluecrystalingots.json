@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "methodthreeforsynthesizingbluecrystalingots",
+  "category": "misc",
+  "ingredients": [
+    "kyanite:bluecrystalblock"
+  ],
+  "result": {
+    "id": "kyanite:bluecrystalingot",
+    "count": 9
+  }
+}

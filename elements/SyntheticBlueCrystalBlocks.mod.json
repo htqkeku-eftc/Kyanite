@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "synthetic_blue_crystal_blocks",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      },
+      {
+        "value": "CUSTOM:Bluecrystalingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bluecrystalblock"
+    },
+    "name": "synthetic_blue_crystal_blocks",
+    "namespace": "mod"
+  }
+}

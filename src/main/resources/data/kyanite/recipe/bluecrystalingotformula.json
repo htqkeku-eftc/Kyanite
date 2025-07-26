@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "synthetic_blue_crystal_ingot",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb"
+  ],
+  "key": {
+    "a": "kyanite:bluecrystalingotfragments",
+    "b": "minecraft:diamond"
+  },
+  "result": {
+    "id": "kyanite:bluecrystalingot",
+    "count": 1
+  }
+}

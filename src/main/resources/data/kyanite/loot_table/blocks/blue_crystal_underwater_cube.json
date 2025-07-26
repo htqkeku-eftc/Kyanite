@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "kyanite:blocks/blue_crystal_underwater_cube",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kyanite:blue_crystal_underwater_cube"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyanite:block/blue_crystal_raw_ore",
+    "up": "kyanite:block/blue_crystal_raw_ore",
+    "north": "kyanite:block/blue_crystal_raw_ore",
+    "east": "kyanite:block/blue_crystal_raw_ore",
+    "south": "kyanite:block/blue_crystal_raw_ore",
+    "west": "kyanite:block/blue_crystal_raw_ore",
+    "particle": "kyanite:block/blue_crystal_raw_ore"
+  },
+  "render_type": "solid"
+}
