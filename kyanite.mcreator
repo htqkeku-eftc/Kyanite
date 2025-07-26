@@ -624,9 +624,9 @@
       "~CUSTOM:Bluecrystalingot"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:BlueCrystalUnderwaterCube",
       "~CUSTOM:BlueCrystalGrassCube",
-      "~CUSTOM:BlueCrystalEarthBlocks",
-      "~CUSTOM:BlueCrystalUnderwaterCube"
+      "~CUSTOM:BlueCrystalEarthBlocks"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Bluecrystaltreestem"
@@ -641,7 +641,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.kyanite.kyanite": "蓝晶石",
+      "item_group.kyanite.kyanite": "Kyanite",
       "item.kyanite.coarsebluespar": "粗蓝晶石",
       "item.kyanite.bluecrystalrawore": "Blue_crystal_raw_ore",
       "item.kyanite.qingqingdodoblock": "Qingqingdodoblock",
@@ -724,8 +724,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "playeranimator"
+    ],
     "currentGenerator": "neoforge-1.21.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.kyanite"
   },
   "mcreatorVersion": 202500228610

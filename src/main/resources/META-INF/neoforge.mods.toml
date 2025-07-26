@@ -28,6 +28,12 @@ authors="MCreator"
     side="BOTH"
 
 
+[[dependencies.kyanite]]
+    modId="playeranimator"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 [[mixins]]
